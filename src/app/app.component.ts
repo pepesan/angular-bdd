@@ -7,6 +7,7 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   counter = 0;
+  title = 'angular-bdd';
 
   increment(): void {
     this.counter++;

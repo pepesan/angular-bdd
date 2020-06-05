@@ -5,3 +5,7 @@ Scenario: Basic increment scenario
     Given I am on the home page
     When I click on the increment button 21 times
     Then The counter should show "21"
+  Scenario: Basic increment scenario
+    Given I am on the home page
+    When I click on the increment button 10 times
+    Then The counter should show "10"
